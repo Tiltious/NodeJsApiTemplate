@@ -27,7 +27,7 @@ exports.signup = (req, res) => {
     });
   });
 };
-
+ 
 exports.signin = (req, res) => {
   User.findOne({
     email: req.body.email
